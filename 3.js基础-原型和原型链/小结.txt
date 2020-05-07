@@ -1,0 +1,3 @@
+class和继承，结合上面手写JQuery的示例来理解
+instanceof
+原型和原型链：图示&执行规则
