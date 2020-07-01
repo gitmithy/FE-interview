@@ -33,5 +33,6 @@ const obj6=Object.create({
 
 const obj7=Object.create(obj1)
 
-// new Object创建的方式相等,但
+// new Object创建的方式相等
+// 用Object.create创建不相等，但隐式，即__proto__相等
 
