@@ -25,7 +25,7 @@ if (obj.a == null) {
 !!'' === false;
 !!null === false;
 !!undefined === false;
-!!false == false;
+!!false === false;
 
 // if语句
 const a = true;
@@ -52,8 +52,8 @@ if (e) {
 }
 
 // 逻辑判断
-console.log(10 && 0) //0  10是一个truly变量  0是一个falsely变量
-console.log(0 && 10) //0  10是一个truly变量  0是一个falsely变量
+console.log(10 && 0) //0  10是一个truly变量  0是一个falsely变量 //0是truly，继续返回第二个值
+console.log(0 && 10) //0  10是一个truly变量  0是一个falsely变量 //0是falsely，直接返回
 console.log('' || 'abc') //abc是一个truly变量
 console.log('abc' || '') //abc是一个truly变量
 console.log(!window.abc) //true

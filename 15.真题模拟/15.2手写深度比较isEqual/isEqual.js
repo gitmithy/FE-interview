@@ -2,7 +2,7 @@ function isObject(obj){
     return typeof obj ==='object'&&obj!==null
 }
 function isEqual(obj1,obj2){
-    if(!isObject(obj1)||!isObject(obj1)){
+    if(!isObject(obj1)||!isObject(obj2)){
         // 不是对象，值类型（注意，参与equal的一般不会是函数）
         return obj1===obj2
     }
